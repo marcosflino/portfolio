@@ -1,1 +1,12 @@
+title: "<p align='center'>Marcos Lino</p>"
+#logo: 
+description: "<a href='https://www.linkedin.com/in/marcosfl/'>LinkedIn</a> | <a href='https://github.com/marcosflino'>GitHub</a>"
+#show_downloads: true
 
+social:
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/marcosfl/
+  - title: GitHub
+    url: https://github.com/marcosflino
+
+theme: jekyll-theme-minimal
