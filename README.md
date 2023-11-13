@@ -5,6 +5,8 @@
 ![SQL](https://img.shields.io/badge/-SQL-lightgray?style=flat-square&logo=sql&logoColor=black)
 ![Excel](https://img.shields.io/badge/-Excel-green?style=flat-square&logo=microsoft-excel&logoColor=white)
 ![Estatística](https://img.shields.io/badge/-Estat%C3%ADstica-orange?style=flat-square)
+![Shell Script](https://img.shields.io/badge/Shell%20Script-000000?style=flat&logo=gnu-bash&logoColor=white)
+
 
 ## Educação
 - Biologia | Universidade do Porto, Portugal (_Fev 2022_)								       		
