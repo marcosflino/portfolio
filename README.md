@@ -1,11 +1,13 @@
 # Cientista de Dados
 
 ## Habilidades Técnicas
-![Python](https://img.shields.io/badge/-Python-blue?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-lightgray?style=flat-square&logo=sql&logoColor=black)
-![Excel](https://img.shields.io/badge/-Excel-green?style=flat-square&logo=microsoft-excel&logoColor=white)
-![Estatística](https://img.shields.io/badge/-Estat%C3%ADstica-orange?style=flat-square)
-![Shell Script](https://img.shields.io/badge/Shell%20Script-000000?style=flat&logo=gnu-bash&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-gray?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-gray?style=flat-square&logo=sql&logoColor=white)
+![Excel](https://img.shields.io/badge/-Excel-gray?style=flat-square&logo=microsoft-excel&logoColor=white)
+![Estatística](https://img.shields.io/badge/-Estat%C3%ADstica-gray?style=flat-square)
+![Shell Script](https://img.shields.io/badge/Shell%20Script-gray?style=flat&logo=gnu-bash&logoColor=white)
+![R](https://img.shields.io/badge/-R-gray?style=flat-square&logo=r&logoColor=white)
+![PowerBi](https://img.shields.io/badge/-PowerBi-gray?style=flat-square&logo=power-bi&logoColor=white)
 
 
 ## Educação
