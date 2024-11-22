@@ -1,5 +1,8 @@
 # Cientista de Dados
+## Github Stats  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=marcosflino&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
 
+<br/>  
 ## Habilidades Técnicas
 <div align="center">  
 <a href="https://www.r-project.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/r.svg" alt="R" height="50" /></a>  
