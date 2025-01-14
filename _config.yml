@@ -1,33 +1,37 @@
+# Site Settings
 title: "Marcos Lino | Data Science & AI Portfolio"
-tagline: "Transformando dados em decisões inteligentes"
+tagline: "Transformando o futuro através dos dados"
 description: >-
-  Especialista em Ciência de Dados e Inteligência Artificial, 
-  combinando conhecimentos em Biologia com tecnologia de ponta 
-  para criar soluções inovadoras.
+  Cientista de Dados e Especialista em IA, unindo biologia e tecnologia
+  para criar soluções inovadoras que impactam o mundo.
 url: "https://marcosflino.github.io"
 baseurl: ""
-locale: "pt_BR"
-version: "2.0"
+repository: "marcosflino/marcosflino.github.io"
 
+# Theme Configuration
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 color-scheme: dark
 
+# SEO and Analytics
+google_analytics: "UA-XXXXXXXX-X"
+author:
+  name: "Marcos Lino"
+  bio: "Cientista de Dados | Especialista em IA"
+  location: "Portugal"
+  email: "seu.email@gmail.com"
+  github: "marcosflino"
+  linkedin: "marcosfl"
+  kaggle: "marcosflino"
+  medium: "@marcosflino"
+
+# Build Settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 future: true
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
+# Collections
 collections:
   projects:
     output: true
@@ -35,8 +39,44 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
 
-defaults:
-  - scope:
-      path
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-redirect-from
 
+# Asset Pipeline
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Custom Settings
+animated_header: true
+enable_dark_mode: true
+show_downloads: true
+logo_path: /assets/img/profile.png
+
+# Social Media Settings
+social_links:
+  github: "marcosflino"
+  linkedin: "marcosfl"
+  kaggle: "marcosflino"
+  medium: "@marcosflino"
+
+# Performance Optimization
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
