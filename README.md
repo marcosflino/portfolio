@@ -13,7 +13,7 @@
 ## 🎯 Sobre Mim
 
 ```python
-@@ -27,12 +10,12 @@ class DataScientist:
+class DataScientist:
             "biology": "University of Porto",
             "biological_sciences": "University of Pernambuco"
         }
@@ -25,8 +25,6 @@ me.say_hi()
 ```
 
 Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com uma formação única em Biologia. Minha jornada interdisciplinar me permite:
-
-@@ -46,18 +29,21 @@ Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com
 <div align="center">
 
 ### Languages & Frameworks
@@ -45,7 +43,7 @@ Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-@@ -67,25 +53,17 @@ Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com
+
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -69,7 +67,7 @@ Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com
 ### 🧬 Análise de Dados Genômicos com ML
 - 🎯 **Objetivo**: Identificação de biomarcadores para diagnóstico precoce
 - 🛠️ **Stack**: Python, Scikit-learn, TensorFlow, Pandas
-@@ -114,16 +92,16 @@ Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com
+
 
 - 🎓 **Biologia** | Universidade do Porto
   - Especialização em Bioinformática
