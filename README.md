@@ -1,5 +1,4 @@
-# 🚀 Marcos Lino - Cientista de Dados & Especialista em IA
-
+<!-- Cabeçalho Dinâmico -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&width=435&lines=Transformando+dados+em+decisões;Desenvolvendo+IA+para+um+futuro+melhor" alt="Typing SVG" />
 </div>
@@ -8,6 +7,10 @@
 
 ## 👋 Sobre Mim
 
+<div align="center">
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Hello World" width="200"/>
+</div>
+
 Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com formação em Biologia e Ciências Biológicas. Minha paixão é resolver problemas complexos utilizando dados, algoritmos de machine learning e técnicas de deep learning. Combinando conhecimentos interdisciplinares, crio soluções inovadoras para desafios do mundo real.
 
 ---
@@ -15,7 +18,7 @@ Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com
 ## 🛠️ Habilidades Técnicas
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,tensorflow,pytorch,git,docker,linux,bash,mysql,github" alt="Habilidades Técnicas" />
+  <img src="https://skillicons.dev/icons?i=python,r,tensorflow,pytorch,git,docker,linux,bash,mysql,github,aws,gcp,flask,fastapi" alt="Habilidades Técnicas" />
 </div>
 
 ---
