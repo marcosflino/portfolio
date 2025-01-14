@@ -1,12 +1,20 @@
-
-title: "<p align='center'>Marcos Lino</p>"
-description: "<p align='center'><a href='https://www.linkedin.com/in/marcosfl/'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white'/></a>   <a href='https://github.com/marcosflino'><img src='https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white'/></a></p>"
-#logo:
-#show_downloads: true
-#social:
+title: "Marcos Lino - Cientista de Dados"
+description: "Portfólio de projetos e habilidades em Ciência de Dados e Inteligência Artificial."
 theme: jekyll-theme-minimal
 
-## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=marcosflino&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
+# Social links
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/marcosfl/
+  - name: GitHub
+    url: https://github.com/marcosflino
+  - name: Kaggle
+    url: https://kaggle.com/marcosflino
+  - name: Medium
+    url: https://medium.com/marcosflino
 
-<br/>  
+# Exibir estatísticas do GitHub
+github_stats: true
+
+# Exibir ícones de habilidades
+skills_icons: true
