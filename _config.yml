@@ -1,67 +1,113 @@
-# Configurações do Site
-title: "Marcos Lino - Portfólio de Ciência de Dados e IA"
-description: "Bem-vindo ao meu portfólio! Aqui você encontrará projetos, artigos e informações sobre meu trabalho em Ciência de Dados e Inteligência Artificial."
-url: "https://marcosflino.github.io" # Substitua pelo seu domínio ou URL do GitHub Pages
+title: "Marcos Lino | Data Science & AI Portfolio"
+tagline: "Transformando dados em decisões inteligentes"
+description: >-
+  Especialista em Ciência de Dados e Inteligência Artificial, 
+  combinando conhecimentos em Biologia com tecnologia de ponta 
+  para criar soluções inovadoras.
+url: "https://marcosflino.github.io"
 baseurl: ""
+locale: "pt_BR"
+version: "2.0"
 
-# Tema e Design
-theme: jekyll-theme-midnight # Um tema moderno e elegante
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+color-scheme: dark
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+future: true
+
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-github-metadata
+  - jekyll-relative-links
+  - jemoji
 
-# Personalização
-logo: "assets/images/logo.png" # Adicione um logo personalizado
-favicon: "assets/images/favicon.ico" # Ícone do site
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# Social Links
-social:
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/marcosfl/
-    icon: linkedin
-  - name: GitHub
-    url: https://github.com/marcosflino
-    icon: github
-  - name: Kaggle
-    url: https://kaggle.com/marcosflino
-    icon: kaggle
-  - name: Medium
-    url: https://medium.com/marcosflino
-    icon: medium
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
 
-# Estatísticas do GitHub
-github_stats:
-  enabled: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Marcos Lino"
+  - scope:
+      path: "_projects"
+    values:
+      layout: "project"
+  - scope:
+      path: "_publications"
+    values:
+      layout: "publication"
+
+social_links:
+  github: marcosflino
+  linkedin: marcosfl
+  kaggle: marcosflino
+  medium: marcosflino
+  email: seu.email@gmail.com
+
+google_analytics: "UA-XXXXXXXX-X"
+google_site_verification: "verification_code"
+
+twitter:
   username: marcosflino
+  card: summary_large_image
+facebook:
+  app_id: 123456789
+  publisher: 123456789
+social:
+  name: Marcos Lino
+  links:
+    - https://twitter.com/marcosflino
+    - https://www.linkedin.com/in/marcosfl
+    - https://github.com/marcosflino
 
-# Habilidades Técnicas
-skills:
-  - name: Python
-    icon: python
-  - name: R
-    icon: r
-  - name: TensorFlow
-    icon: tensorflow
-  - name: PyTorch
-    icon: pytorch
-  - name: Docker
-    icon: docker
-  - name: Git
-    icon: git
+features:
+  projects:
+    enabled: true
+    show_count: 6
+  publications:
+    enabled: true
+    show_count: 4
+  blog:
+    enabled: true
+    show_count: 5
 
-# Projetos
-projects:
-  - name: Análise de Dados Genômicos
-    description: "Pipeline de análise de dados genômicos com machine learning."
-    link: "#"
-  - name: Sistema de Recomendação
-    description: "Sistema de recomendação baseado em deep learning."
-    link: "#"
-  - name: Automação de Processos
-    description: "Automação de ETL e deploy com Bash e Docker."
-    link: "#"
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
 
-# Rodapé
-footer:
-  message: "Feito com ❤️ por Marcos Lino"
-  year: 2023
+webmaster_verifications:
+  google: ""
+  bing: ""
+  alexa: ""
+  yandex: ""
+
+author:
+  name: Marcos Lino
+  bio: >-
+    Data Scientist & AI Specialist com background em Biologia,
+    especializado em machine learning e análise de dados genômicos.
+  avatar: /assets/images/profile.jpg
+  location: "Porto, Portugal"
+  company: "Your Company"
+  company_url: "https://company.com"
