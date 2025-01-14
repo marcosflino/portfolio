@@ -5,7 +5,7 @@ url: "https://marcosflino.github.io" # Substitua pelo seu domínio ou URL do Git
 baseurl: ""
 
 # Tema e Design
-theme: jekyll-theme-hacker # Um tema moderno e elegante
+theme: jekyll-theme-midnight # Um tema moderno e elegante
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
