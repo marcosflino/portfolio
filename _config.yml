@@ -1,20 +1,67 @@
-title: "Marcos Lino - Cientista de Dados"
-description: "Portfólio de projetos e habilidades em Ciência de Dados e Inteligência Artificial."
-theme: jekyll-theme-minimal
+# Configurações do Site
+title: "Marcos Lino - Portfólio de Ciência de Dados e IA"
+description: "Bem-vindo ao meu portfólio! Aqui você encontrará projetos, artigos e informações sobre meu trabalho em Ciência de Dados e Inteligência Artificial."
+url: "https://marcosflino.github.io" # Substitua pelo seu domínio ou URL do GitHub Pages
+baseurl: ""
 
-# Social links
+# Tema e Design
+theme: jekyll-theme-hacker # Um tema moderno e elegante
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Personalização
+logo: "assets/images/logo.png" # Adicione um logo personalizado
+favicon: "assets/images/favicon.ico" # Ícone do site
+
+# Social Links
 social:
   - name: LinkedIn
     url: https://www.linkedin.com/in/marcosfl/
+    icon: linkedin
   - name: GitHub
     url: https://github.com/marcosflino
+    icon: github
   - name: Kaggle
     url: https://kaggle.com/marcosflino
+    icon: kaggle
   - name: Medium
     url: https://medium.com/marcosflino
+    icon: medium
 
-# Exibir estatísticas do GitHub
-github_stats: true
+# Estatísticas do GitHub
+github_stats:
+  enabled: true
+  username: marcosflino
 
-# Exibir ícones de habilidades
-skills_icons: true
+# Habilidades Técnicas
+skills:
+  - name: Python
+    icon: python
+  - name: R
+    icon: r
+  - name: TensorFlow
+    icon: tensorflow
+  - name: PyTorch
+    icon: pytorch
+  - name: Docker
+    icon: docker
+  - name: Git
+    icon: git
+
+# Projetos
+projects:
+  - name: Análise de Dados Genômicos
+    description: "Pipeline de análise de dados genômicos com machine learning."
+    link: "#"
+  - name: Sistema de Recomendação
+    description: "Sistema de recomendação baseado em deep learning."
+    link: "#"
+  - name: Automação de Processos
+    description: "Automação de ETL e deploy com Bash e Docker."
+    link: "#"
+
+# Rodapé
+footer:
+  message: "Feito com ❤️ por Marcos Lino"
+  year: 2023
