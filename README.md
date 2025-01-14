@@ -33,7 +33,6 @@ class DataScientist:
 
 me = DataScientist()
 me.say_hi()
-```
 
 Sou um **Cientista de Dados** e **Especialista em Inteligência Artificial** com uma formação única em Biologia. Minha jornada interdisciplinar me permite:
 
