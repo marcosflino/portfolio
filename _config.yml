@@ -1,67 +1,75 @@
-# Configurações do Site
-title: "Marcos Lino - Portfólio de Ciência de Dados e IA"
-description: "Bem-vindo ao meu portfólio! Aqui você encontrará projetos, artigos e informações sobre meu trabalho em Ciência de Dados e Inteligência Artificial."
-url: "https://marcosflino.github.io" # Substitua pelo seu domínio ou URL do GitHub Pages
+# Site Settings
+title: Data Science Portfolio
+description: Exploring the frontiers of AI and Machine Learning
 baseurl: ""
+url: "https://yourusername.github.io"
 
-# Tema e Design
-theme: jekyll-theme-midnight # Um tema moderno e elegante
+# Theme Settings
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Plugins
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme
 
-# Personalização
-logo: "assets/images/logo.png" # Adicione um logo personalizado
-favicon: "assets/images/favicon.ico" # Ícone do site
-
-# Social Links
+# SEO Settings
+author:
+  name: Robson Lopes Jr
+  email: your.email@example.com
+twitter:
+  username: yourtwitterhandle
+  card: summary_large_image
 social:
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/marcosfl/
-    icon: linkedin
-  - name: GitHub
-    url: https://github.com/marcosflino
-    icon: github
-  - name: Kaggle
-    url: https://kaggle.com/marcosflino
-    icon: kaggle
-  - name: Medium
-    url: https://medium.com/marcosflino
-    icon: medium
+  name: Robson Lopes Jr
+  links:
+    - https://twitter.com/yourtwitterhandle
+    - https://www.linkedin.com/in/robsonlopesjr
+    - https://github.com/robsonlopesjr
 
-# Estatísticas do GitHub
-github_stats:
-  enabled: true
-  username: marcosflino
+# Analytics
+google_analytics: UA-XXXXXXXX-X
 
-# Habilidades Técnicas
-skills:
-  - name: Python
-    icon: python
-  - name: R
-    icon: r
-  - name: TensorFlow
-    icon: tensorflow
-  - name: PyTorch
-    icon: pytorch
-  - name: Docker
-    icon: docker
-  - name: Git
-    icon: git
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
 
-# Projetos
-projects:
-  - name: Análise de Dados Genômicos
-    description: "Pipeline de análise de dados genômicos com machine learning."
-    link: "#"
-  - name: Sistema de Recomendação
-    description: "Sistema de recomendação baseado em deep learning."
-    link: "#"
-  - name: Automação de Processos
-    description: "Automação de ETL e deploy com Bash e Docker."
-    link: "#"
+# Custom Settings
+show_downloads: true
+logo: /assets/img/logo.png
 
-# Rodapé
-footer:
-  message: "Feito com ❤️ por Marcos Lino"
-  year: 2023
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Default Settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Robson Lopes Jr"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      author: "Robson Lopes Jr"
+
+# Exclude Files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .github
+  - README.md
+  - LICENSE
+  - CNAME
