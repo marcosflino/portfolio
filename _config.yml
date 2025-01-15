@@ -11,7 +11,7 @@ repository: "marcosflino/marcosflino.github.io"
 # Theme Configuration
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
-color-scheme: dark
+color-scheme: light
 
 # SEO and Analytics
 google_analytics: "UA-XXXXXXXX-X"
@@ -60,7 +60,7 @@ sass:
 
 # Custom Settings
 animated_header: true
-enable_dark_mode: true
+enable_dark_mode: false
 show_downloads: true
 logo_path: /assets/img/profile.png
 
