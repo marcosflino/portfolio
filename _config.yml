@@ -1,75 +1,106 @@
 # Site Settings
-title: Data Science Portfolio
-description: Exploring the frontiers of AI and Machine Learning
-baseurl: ""
-url: "https://yourusername.github.io"
+title: "Marcos Lino | Data Science & AI Portfolio"
+description: "Cientista de Dados e Especialista em IA com background em Biologia"
+baseurl: "/portfolio"
+url: "https://marcosflino.github.io"
 
-# Theme Settings
+# Theme Configuration
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 
-# Plugins
+# SEO & Social
+author:
+  name: "Marcos Lino"
+  bio: "Data Scientist & AI Specialist"
+  location: "Brazil"
+  email: "seu.email@exemplo.com"
+social:
+  github: marcosflino
+  linkedin: marcosflino
+  researchgate: profile/seu-perfil
+
+# Plugin Configuration
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jekyll-github-metadata
 
-# SEO Settings
-author:
-  name: Robson Lopes Jr
-  email: your.email@example.com
-twitter:
-  username: yourtwitterhandle
-  card: summary_large_image
-social:
-  name: Robson Lopes Jr
-  links:
-    - https://twitter.com/yourtwitterhandle
-    - https://www.linkedin.com/in/robsonlopesjr
-    - https://github.com/robsonlopesjr
-
-# Analytics
-google_analytics: UA-XXXXXXXX-X
-
-# Build Settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-
-# Custom Settings
-show_downloads: true
-logo: /assets/img/logo.png
-
-# Collections
+# Content Structure
 collections:
   projects:
     output: true
     permalink: /projects/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  blog:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
 
-# Default Settings
+# Layout Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Robson Lopes Jr"
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
-      author: "Robson Lopes Jr"
+      show_sidebar: true
+      show_metrics: true
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
+      show_citations: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      show_date: true
 
-# Exclude Files
+# Visual Configuration
+logo: /assets/img/profile.jpg
+show_downloads: false
+google_analytics: UA-XXXXXXXX-X
+
+# Custom Navigation
+navigation:
+  - title: "Sobre"
+    url: "/about/"
+  - title: "Projetos"
+    url: "/projects/"
+  - title: "Publicações"
+    url: "/publications/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contato"
+    url: "/contact/"
+
+# Theme Colors
+colors:
+  primary: "#0077B5"      # Professional Blue
+  secondary: "#333333"    # Dark Gray
+  accent: "#00A0DC"       # Light Blue
+  background: "#FFFFFF"   # White
+  text: "#2C3E50"        # Dark Blue-Gray
+
+# Performance Optimization
+sass:
+  style: compressed
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+
+# Build Settings
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
   - .git
-  - .github
   - README.md
-  - LICENSE
-  - CNAME
+  - CHANGELOG.md
