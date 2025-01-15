@@ -1,69 +1,86 @@
-<!-- Cabeçalho Dinâmico -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&width=435&lines=Transformando+dados+em+decisões;Desenvolvendo+IA+para+um+futuro+melhor" alt="Typing SVG" />
+  
+# Data Science & AI Portfolio
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robsonlopesjr/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/robsonlopesjr)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
 </div>
----
-## 👋 Sobre Mim
+
+## 👋 Welcome to my Data Science Portfolio
+
+> "Data is the new oil. But like oil, data is valuable, but if unrefined it cannot really be used." - Clive Humby
+
+I'm a Data Scientist passionate about transforming raw data into actionable insights using AI and Machine Learning.
+
+### 🎯 Expertise Areas
+
+- **Machine Learning**: Advanced model development and deployment
+- **Deep Learning**: Neural networks for complex pattern recognition
+- **Natural Language Processing**: Text analysis and language understanding
+- **Computer Vision**: Image and video processing solutions
+- **Data Analysis**: Statistical analysis and data visualization
+
+### 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/yourusername/project1">
+        <img src="https://img.shields.io/badge/-%F0%9F%A4%96%20AI%20Project-blue?style=for-the-badge"/>
+        <br />
+        <sub><b>AI Project Name</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/yourusername/project2">
+        <img src="https://img.shields.io/badge/-%F0%9F%93%8A%20ML%20Project-green?style=for-the-badge"/>
+        <br />
+        <sub><b>ML Project Name</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+### 📊 GitHub Analytics
+
 <div align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Hello World" width="200"/>
+  
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=robsonlopesjr&show_icons=true&theme=light&hide_border=true&bg_color=ffffff&icon_color=0077B5&title_color=0077B5&text_color=333333)](https://github.com/robsonlopesjr)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=robsonlopesjr&layout=compact&theme=light&hide_border=true&bg_color=ffffff&title_color=0077B5&text_color=333333)](https://github.com/robsonlopesjr)
+
 </div>
-Sou um Cientista de Dados e Especialista em Inteligência Artificial com formação em Biologia e Ciências Biológicas. Minha paixão é resolver problemas complexos utilizando dados, algoritmos de machine learning e técnicas de deep learning. Combinando conhecimentos interdisciplinares, crio soluções inovadoras para desafios do mundo real.
----
-## 🛠️ Habilidades Técnicas
+
+### 🛠️ Tech Stack
+
+```python
+tech_stack = {
+    'Programming': ['Python', 'R', 'SQL'],
+    'ML/DL Frameworks': ['TensorFlow', 'PyTorch', 'Scikit-learn'],
+    'Data Processing': ['Pandas', 'NumPy', 'PySpark'],
+    'Visualization': ['Matplotlib', 'Seaborn', 'Plotly'],
+    'Cloud': ['AWS', 'GCP', 'Azure'],
+    'Tools': ['Git', 'Docker', 'Kubernetes']
+}
+```
+
+### 📫 Let's Connect
+
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,tensorflow,pytorch,git,docker,linux,bash,mysql,github,aws,gcp,flask,fastapi" alt="Habilidades Técnicas" />
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://yourportfolio.com)
+
 </div>
----
-## 📊 Estatísticas do GitHub
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=marcosflino&show_icons=true&count_private=true&hide_border=true&theme=radical" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marcosflino&theme=radical&hide_border=true" alt="GitHub Streak" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcosflino&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
----
-## 🎨 Projetos Destacados
-### 🧬 Projeto 1: Análise de Dados Genômicos com Machine Learning
-Descrição: Desenvolvimento de um pipeline de análise de dados genômicos para identificar padrões de expressão gênica associados a doenças.  
-Tecnologias: Python, R, Scikit-learn, TensorFlow, Pandas, NumPy  
-Resultados: Identificação de biomarcadores potenciais para diagnóstico precoce de doenças genéticas.  
-Link: [Repositório do Projeto](#)
-### 🎥 Projeto 2: Sistema de Recomendação Baseado em Deep Learning
-Descrição: Implementação de um sistema de recomendação personalizado utilizando redes neurais profundas.  
-Tecnologias: PyTorch, TensorFlow, Keras, Pandas, NumPy  
-Resultados: Aumento de 20% na precisão das recomendações.  
-Link: [Repositório do Projeto](#)
-### 🤖 Projeto 3: Automação de Processos de Análise de Dados com Bash e Docker
-Descrição: Criação de scripts em Bash para automação de processos de ETL e deploy de modelos de machine learning.  
-Tecnologias: Bash, Docker, Python, Git  
-Resultados: Redução de 50% no tempo de processamento de dados.  
-Link: [Repositório do Projeto](#)
----
-## 📚 Publicações e Artigos
-- Artigo 1: [Aplicação de Redes Neurais Convolucionais na Análise de Imagens Médicas](#)  
-- Artigo 2: [Desafios e Oportunidades na Análise de Dados Genômicos](#)  
----
-## 🎓 Educação
-- Biologia | Universidade do Porto, Portugal (Fev 2022)  
-- Ciências Biológicas | Universidade de Pernambuco (Jun 2022)  
----
-## 🌐 Conecte-se Comigo
-<div align="center">
-  <a href="https://www.linkedin.com/in/marcosfl/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/marcosflino">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://kaggle.com/marcosflino">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
-  </a>
-  <a href="https://medium.com/marcosflino">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
-  </a>
-</div>
+
 ---
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=marcosflino&style=flat-square&color=blueviolet" alt="Profile views" />
+  <sub>Built with ❤️ by Robson Lopes Jr</sub>
 </div>
