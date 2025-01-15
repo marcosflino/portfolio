@@ -3,5 +3,38 @@ title: Marcos Lino - Portfólio de Ciência de Dados e IA
 description: Bem-vindo ao meu portfólio! Aqui você encontrará projetos, artigos e informações sobre meu trabalho em Ciência de Dados e Inteligência Artificial.
 show_downloads: false
 google_analytics:
+  tracking_id: 'UA-XXXXX-Y'
 github:
   is_project_page: true
+  repository_url: https://github.com/marcosflino/portfolio
+  homepage_url: https://marcosflino.github.io/portfolio
+  owner: marcosflino
+  repo: portfolio
+  branch: main
+  path: /
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-github-metadata
+  - jekyll-remote-theme
+  - jekyll-redirect-from
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-coffeescript
+  - jekyll-sass-converter
+  - jekyll-commonmark
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-pages
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+  - jekyll-watch
+  - jekyll-compose
+  - jekyll-admin
+  - jekyll-archives
+  - jekyll-assets
+  - jekyll-autoprefixer
