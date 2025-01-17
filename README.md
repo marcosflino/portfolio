@@ -1,102 +1,86 @@
 # Marcos Lino | Data Science & AI Portfolio
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00B8B5&width=435&lines=Data+Scientist;Machine+Learning+Engineer;AI+Specialist;Python+Developer)](https://git.io/typing-svg)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-linkedin/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/marcosflino)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:seu.email@exemplo.com)
 ![Profile Views](https://komarev.com/ghpvc/?username=marcosflino&color=brightgreen&style=flat-square)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@seu-medium)
 
+## 🎯 Sobre
+
+Data Scientist e Especialista em IA com forte background analítico e experiência em desenvolvimento de soluções de machine learning. Especializado em:
+
+- Análise avançada de dados e Business Intelligence
+- Desenvolvimento de modelos preditivos
+- Otimização de processos através de ML/AI
+- Simulações computacionais e modelagem estatística
+- Criação de dashboards e ferramentas de visualização
+
+> "Transformando dados em insights e insights em ação"
+
 ## 🛠️ Tech Stack
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-### 🧠 ML/DL
+### 🧠 ML/DL & Analytics
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 
 ### 🌥️ Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-### 📊 Data & Analytics
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
-
-### 💾 Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-## 🎯 Sobre
-
-Cientista de Dados e Especialista em IA com background em Biologia, focado em desenvolver soluções inovadoras usando machine learning e análise avançada de dados. Especializado em:
-
-- Análise e processamento de dados genômicos
-- Desenvolvimento de modelos de deep learning 
-- Automação de pipelines de ML/AI
-- Deploy de soluções em produção
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## 📊 Projetos em Destaque
 
-### GenomicAI Pipeline
-Sistema end-to-end para análise de expressão gênica usando deep learning
+### Business Analytics Dashboard
+> Sistema de análise de métricas de negócios e KPIs
 
-- **Problema**: Identificação de biomarcadores em datasets genômicos de larga escala
-- **Solução**: Pipeline automatizado com preprocessamento, feature selection e classificação
-- **Tecnologias**: Python, TensorFlow, Docker
+- **Problema**: Necessidade de visualização e análise de dados em tempo real
+- **Solução**: Dashboard interativo com previsões e insights automatizados
+- **Tecnologias**: Python, PowerBI, SQL
 - **Resultados**: 
- - Redução de 60% no tempo de processamento
- - Accuracy de 92% na identificação de biomarcadores
-- [📁 Código](https://github.com/user/genomic-ai) | [📑 Paper](https://doi.org/paper-link)
+  - Redução de 40% no tempo de análise
+  - Automação de 90% dos relatórios
+- [📁 Código](https://github.com/user/analytics-dashboard)
 
-### DeepRecommender
-Sistema de recomendação baseado em deep learning
+### Simulação Monte Carlo ML
+> Otimização de processos usando simulação e machine learning
 
-- **Problema**: Personalização de recomendações em tempo real
-- **Solução**: Arquitetura híbrida com collaborative filtering e content-based filtering
-- **Tecnologias**: PyTorch, FastAPI, Redis
+- **Problema**: Otimização de parâmetros em processos complexos
+- **Solução**: Sistema híbrido de simulação Monte Carlo com ML
+- **Tecnologias**: C++, Python, TensorFlow
 - **Resultados**:
- - 20% de aumento no CTR
- - Latência < 100ms por requisição
-- [📁 Código](https://github.com/user/deep-recommender)
+  - 85% de precisão nas previsões
+  - Redução de 60% no tempo de processamento
+- [📁 Código](https://github.com/user/monte-carlo-ml)
 
-### MLOps Automation
-Framework para automação de workflows de ML
+### Predictive Analytics Engine
+> Motor de previsão para métricas de negócio
 
-- **Problema**: Deploy e monitoramento de modelos em produção
-- **Solução**: Pipeline automatizado de CI/CD para modelos de ML
-- **Tecnologias**: Airflow, Docker, Kubernetes
+- **Problema**: Previsão de tendências e comportamentos
+- **Solução**: Sistema de ML para análise preditiva
+- **Tecnologias**: Python, Scikit-learn, AWS
 - **Resultados**: 
- - Redução de 70% no tempo de deploy
- - 99.9% de disponibilidade
-- [📁 Código](https://github.com/user/mlops-automation)
-
-## 📚 Publicações & Palestras
-
-- [**Paper**] "Deep Learning Applications in Genomic Data Analysis" - Nature Bioinformatics, 2024
-- [**Talk**] "Scaling ML Pipelines with Kubernetes" - PyData 2023
-- [**Blog**] "Best Practices for Production ML Systems" - Towards Data Science
-
-## 📫 Contato
-
-Para colaborações, oportunidades ou discussões técnicas:
-- 📧 Email: [seu.email@exemplo.com](mailto:seu.email@exemplo.com)
-- 💼 LinkedIn: [linkedin.com/in/seu-perfil](https://linkedin.com/in/seu-perfil)
-- 🐦 Twitter: [@seu_handle](https://twitter.com/seu_handle)
+  - 92% de acurácia nas previsões
+  - ROI 300% maior que métodos tradicionais
+- [📁 Código](https://github.com/user/predictive-engine)
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=marcosflino&show_icons=true&theme=github_dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marcosflino&layout=compact&theme=github_dark&hide_border=true)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=marcosflino&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=marcosflino&show_icons=true&theme=radical&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marcosflino&layout=compact&theme=radical&hide_border=true)
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=marcosflino&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 ---
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
+</p>
