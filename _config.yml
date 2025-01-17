@@ -68,7 +68,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-
 # Exclude from processing
 exclude:
   - Gemfile
