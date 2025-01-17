@@ -1,82 +1,40 @@
-# Site Settings
-title: "Marcos Lino | Data Science & AI Portfolio"
-description: >-
-  Senior Data Scientist and AI Specialist focusing on genomic data analysis, 
-  deep learning applications, and MLOps automation. Transforming complex data 
-  into actionable insights.
-url: "https://marcosflino.github.io"
-baseurl: "/portfolio"
-repository: "marcosflino/portfolio"
-
-# Theme Configuration
 theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0
-logo: /assets/img/profile.jpg
+title: Marcos Lino - Portfólio de Ciência de Dados e IA
+description: Bem-vindo ao meu portfólio! Aqui você encontrará projetos, artigos e informações sobre meu trabalho em Ciência de Dados e Inteligência Artificial.
 show_downloads: false
-
-# SEO Settings
-author:
-  name: Marcos Lino
-  email: seu.email@exemplo.com
-twitter:
-  username: seu_twitter
-  card: summary_large_image
-social:
-  name: Marcos Lino
-  links:
-    - https://twitter.com/seu_twitter
-    - https://www.linkedin.com/in/seu-linkedin
-    - https://github.com/marcosflino
-
-# Analytics
-google_analytics: UA-XXXXX-Y
-
-# Build Settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
+google_analytics:
+  tracking_id: 'UA-XXXXX-Y'
+github:
+  is_project_page: true
+  repository_url: https://github.com/marcosflino/portfolio
+  homepage_url: https://marcosflino.github.io/portfolio
+  owner: marcosflino
+  repo: portfolio
+  branch: main
+  path: /
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-github-metadata
   - jekyll-remote-theme
-
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-  posts:
-    output: true
-    permalink: /blog/:year/:month/:day/:title/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Marcos Lino"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
-      author: "Marcos Lino"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .git
-  - .github
-  - README.md
-  - LICENSE
-  - CHANGELOG.md
-  - "*.log"
+  - jekyll-redirect-from
+  - jekyll-avatar
+  - jekyll-mentions
+  - jekyll-coffeescript
+  - jekyll-sass-converter
+  - jekyll-commonmark
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-pages
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+  - jekyll-watch
+  - jekyll-compose
+  - jekyll-admin
+  - jekyll-archives
+  - jekyll-assets
+  - jekyll-autoprefixer
